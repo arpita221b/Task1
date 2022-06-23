@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+    <style>
+      h1,
+      p {
+        font-family: "Libre Baskerville", serif;
+      }
+      p {
+        text-align: center;
+        font-size: 0.7rem;
+        width: 180px;
+      }
+      h1 {
+        color: #b2a789;
+        font-size: 5rem;
+        font-weight: lighter;
+        margin-bottom: 10px;
+      }
+      h3 {
+        margin-bottom: 10px;
+      }
+      .left {
+        text-align: left;
+      }
+      .circle-container {
+        display: flex;
+        flex-direction: column;
+      }
+      .circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        color: #b2a789;
+        width: 30px;
+        border-radius: 50%;
+        border: 1px solid #b2a789;
+        margin: 10px;
+        cursor: pointer;
+      }
+      .line {
+        border-style: none none none solid;
+        width: 100px;
+        position: absolute;
+        top: 10px;
+        right: 200px;
+      }
+      .side-align {
+        text-align: left;
+        margin-left: 15px;
+      }
+      .circle:hover {
+        color: black;
+        border: 1px solid #000000;
+      }
+      .flexbox {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 60%;
+        margin: auto;
+      }
+      .flexbox-items {
+        width: 340px;
+        height: 200px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .flexbox2 {
+        width: 60%;
+        display: flex;
+        margin: auto;
+
+        justify-content: center;
+      }
+      .flexbox-items2 {
+        width: 300px;
+        height: 300px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+      .flexbox-items3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexbox">
+      <div class="flexbox-items">
+        <h1>8.4M</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+      </div>
+      <div class="flexbox-items">
+        <h1>7.9M</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+      </div>
+      <div class="flexbox-items">
+        <h1>33.6M</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+      </div>
+    </div>
+    <div class="line">
+      <p class="side-align">
+        lLorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      </p>
+      <div class="circle-container">
+        <div class="circle">1</div>
+        <div class="circle">2</div>
+        <div class="circle">3</div>
+        <div class="circle">4</div>
+        <div class="circle">5</div>
+      </div>
+    </div>
+
+    <div class="flexbox2">
+      <div class="flexbox-items2">
+        <h3>Our Footprint</h3>
+        <p class="left">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s,
+          <br />
+          <br />
+          an unknown printer took a galley of type and scrambled it to make a
+          type specimen book. It has survived not only five centuries, but also
+          the leap into electronic typesetting
+
+          <br />
+          <br />remaining essentially unchanged. It was popularised in the 1960s
+          with the release of Letraset sheets containing Lorem Ipsum passages,
+          and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+      <div class="flexbox-items2">
+        <div class="flexbox-items3">
+          <h1>8,679</h1>
+          <p>It was popularised in the 1960s with</p>
+        </div>
+        <div class="flexbox-items3">
+          <h1>373.73</h1>
+          <p>It was popularised in the 1960s with</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
